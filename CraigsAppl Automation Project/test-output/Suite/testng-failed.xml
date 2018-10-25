@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="tests">
+  <test name="Test(failed)" parallel="tests">
+    <classes>
+      <class name="com.craigsappl.ui.test.CraigsApplUITest">
+        <methods>
+          <include name="close"/>
+          <include name="setup"/>
+          <include name="verifyAndDeleteUpdatedVehicleVal"/>
+        </methods>
+      </class> <!-- com.craigsappl.ui.test.CraigsApplUITest -->
+      <class name="com.craigsappl.api.test.CraigsApplAPITest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.craigsappl.api.test.CraigsApplAPITest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

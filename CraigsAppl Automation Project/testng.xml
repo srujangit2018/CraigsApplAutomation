@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+  <test thread-count="5" name="Test" preserve-order="true">
+    <classes>
+      <class name="com.craigsappl.api.test.CraigsApplAPITest"/>
+      <class name="com.craigsappl.ui.test.CraigsApplUITest"/>
+    </classes>
+  </test> <!-- Test group-by-instances="true" -->
+</suite> <!-- Suite -->
